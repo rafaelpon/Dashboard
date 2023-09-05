@@ -14,7 +14,7 @@ template_theme1 = 'cosmo'
 template_theme2 = 'superhero'
 
 # Carregamento do DataFrame a partir de um arquivo CSV
-df = pd.read_csv(r'D:\Biblioteca\Nova pasta - Copia\Projeto PA\dados_tratados.csv')
+df = pd.read_csv(r'XXXXXXXXXXXXXXXX\dados_tratados.csv')
 
 # Filtragem dos maiores salários para cada título de cargo
 max_salaries = df.groupby('job_title')['salary_in_usd'].max().reset_index()
